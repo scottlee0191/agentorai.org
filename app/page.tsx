@@ -108,7 +108,7 @@ export default function Home() {
                   </CardHeader>
                   <CardContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Identify "learn more," "talk to sales," etc.</li>
+                      <li>Identify &quot;learn more,&quot; &quot;talk to sales,&quot; etc.</li>
                       <li>Route to appropriate response paths</li>
                       <li>Connect with the right team members</li>
                     </ul>
