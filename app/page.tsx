@@ -25,7 +25,7 @@ export default function Home() {
                 height={40}
                 className="w-10 h-10"
               />
-              <h1 className="text-xl font-bold">AgentorA</h1>
+              <h1 className="text-xl font-bold">AgentorAI</h1>
             </div>
             <nav className="hidden md:flex gap-6">
               <a className="text-sm font-medium hover:underline underline-offset-4" href="#features">
