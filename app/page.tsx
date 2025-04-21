@@ -18,14 +18,14 @@ export default function Home() {
         <header className="px-4 lg:px-6 h-14 flex items-center">
           <div className="flex items-center justify-between w-full">
             <div className="flex items-center gap-4">
-              <Image 
+            <Image
                 src="/logo.svg" 
                 alt="AgentorAI Logo" 
                 width={40} 
                 height={40}
                 className="w-10 h-10"
               />
-              <h1 className="text-xl font-bold">AgentorAI</h1>
+              <h1 className="text-xl font-bold">AgentorA</h1>
             </div>
             <nav className="hidden md:flex gap-6">
               <a className="text-sm font-medium hover:underline underline-offset-4" href="#features">
@@ -202,13 +202,13 @@ export default function Home() {
                     <div className="bg-muted p-4 rounded-md">
                       <code>{'<script src="https://agentorai.org/chat.js"></script>'}</code>
                     </div>
-                  </div>
+        </div>
                 </TabsContent>
                 <TabsContent value="customize" className="p-4 border rounded-md mt-4">
                   <div className="space-y-4">
                     <h3 className="text-xl font-bold">2. Customize Your Assistant</h3>
                     <p>Use our dashboard to customize appearance, responses, and behavior. Upload additional documents or connect APIs for enhanced capabilities.</p>
-                    <Image 
+          <Image
                       src="/dashboard-preview.png" 
                       alt="Dashboard Preview" 
                       width={600} 
@@ -221,7 +221,7 @@ export default function Home() {
                   <div className="space-y-4">
                     <h3 className="text-xl font-bold">3. Analyze & Improve</h3>
                     <p>Review conversation analytics to understand what users are asking and how the AI is performing. Continuously improve based on real user interactions.</p>
-                    <Image 
+          <Image
                       src="/analytics-preview.png" 
                       alt="Analytics Preview" 
                       width={600} 
@@ -269,7 +269,7 @@ export default function Home() {
               Contact
             </a>
           </nav>
-        </footer>
+      </footer>
       </div>
     </div>
   );
