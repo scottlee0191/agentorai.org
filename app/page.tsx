@@ -28,13 +28,13 @@ export default function Home() {
               <h1 className="text-xl font-bold">AgentorAI</h1>
             </div>
             <nav className="hidden md:flex gap-6">
-              <a className="text-sm font-medium hover:underline underline-offset-4" href="#features">
+              <a className="text-xl font-medium hover:underline underline-offset-4" href="#features">
                 Features
               </a>
-              <a className="text-sm font-medium hover:underline underline-offset-4" href="#pricing">
+              <a className="text-xl font-medium hover:underline underline-offset-4" href="#pricing">
                 Pricing
               </a>
-              <a className="text-sm font-medium hover:underline underline-offset-4" href="#about">
+              <a className="text-xl font-medium hover:underline underline-offset-4" href="#about">
                 About
               </a>
             </nav>
@@ -247,7 +247,7 @@ export default function Home() {
                   <Button variant="secondary" size="lg" className="px-8">
                     Get Started Free
                   </Button>
-                  <Button variant="outline" size="lg" className="px-8">
+                  <Button variant="secondary" size="lg" className="px-8">
                     Book a Demo
                   </Button>
                 </div>
